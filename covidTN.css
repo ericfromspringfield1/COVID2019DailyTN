@@ -1,3 +1,24 @@
+@media all  and (max-width: 600px) {
+    #CovidHeadline {  
+        width: 225%;
+        background-color:  #ff8200;
+      color:  white;
+        
+    }
+    #statement {
+      width: 225%;
+      color: black;
+      font-size: 1.2em;
+      }
+  
+      #writtenP1 {
+      width: 225%;
+      color: black;
+      font-size: 1.2em;
+      }
+  
+  }  
+
 .red-bg {
     background-color: rgba(139, 130, 0, 0.856);
     color: blue;
