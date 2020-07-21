@@ -330,7 +330,7 @@ percentPositiveOver15DaysElement.innerHTML = `PERCENT POSITIVE RATE (last 15 day
     let dailyPercentPositiveDifferenceElement = document.getElementById('dailyPercentPositiveDifferenceElement')
     dailyPercentPositiveDifferenceElement.innerHTML = `Today's Positive Rate decreased by ${dailyPercentPositiveDifference.toFixed(2)}%.`
     }
-
+    if (maxDailyPercentPositiveToday < maxDailyPercentPositiveYesterday)
     let dailyPercentPositiveDifferenceElement = document.getElementById('dailyPercentPositiveDifferenceElement')
     dailyPercentPositiveDifferenceElement.innerHTML = `Positive Rate increased by ${dailyPercentPositiveDifference.toFixed(2)}% over last 24 hours.`
 
